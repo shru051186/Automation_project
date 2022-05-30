@@ -1,6 +1,7 @@
 sudo apt update -y
 sudo apt install apache2
 sudo /etc/init.d/apache2 start
+sudo systemctl apache2 enable
 sudo service apache2 status
 
 cd /var/log/apache2
